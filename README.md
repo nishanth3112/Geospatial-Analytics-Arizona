@@ -39,18 +39,29 @@ This project analyzes **51,000+ high-severity traffic crash records (2012–2024
 ## 📊 Key Visualizations  
 
 ### 1. Crash Trends Over Time (Animated Heatmap)  
-![Crash Trends Heatmap]  <img width="1697" height="892" alt="Screenshot 2025-09-22 at 1 17 42 PM" src="https://github.com/user-attachments/assets/2f0bc759-b777-4a40-a238-efc48724fcb1" />
+<img width="1697" height="892" alt="Screenshot 2025-09-22 at 1 17 42 PM" src="https://github.com/user-attachments/assets/2f0bc759-b777-4a40-a238-efc48724fcb1" />
 
 *Visualizes monthly crash patterns across Tempe, highlighting seasonal and yearly fluctuations.*  
 
 ### 2. High-Risk Corridors (DBSCAN Hotspot Clusters)  
-![Crash Hotspots](images/dbscan_hotspots.png)  
+<img width="1698" height="867" alt="Screenshot 2025-09-22 at 1 21 03 PM" src="https://github.com/user-attachments/assets/734011a6-1da3-44f8-9f1c-7dc2caa45b23" />
+
 *DBSCAN clustering uncovers dense crash clusters along major arterial roads, guiding infrastructure improvements.*  
 
 ### 3. Peak Hour Crash Density  
-![Crash Density by Time](images/crash_density_peak_hours.png)  
+<img width="1696" height="846" alt="Screenshot 2025-09-22 at 1 19 34 PM" src="https://github.com/user-attachments/assets/432f35e0-9758-4d12-8e74-3809f6b26062" />
+
 *Identifies evening peak (3–8 PM) as the riskiest period, helping allocate enforcement and safety measures.*  
 
+### 4. Treemap — Collision Type × Injury Severity
+<img width="1686" height="831" alt="Screenshot 2025-09-22 at 1 24 04 PM" src="https://github.com/user-attachments/assets/1f892b62-3370-4da8-87c0-34f168f5bccd" />
+
+*Hierarchically shows how collision types (e.g., angle, rear-end) distribute across injury severity levels, helping prioritize high-impact crash modes.*
+
+### 5. Bubble Map — Crash Count by Street
+<img width="1695" height="847" alt="Screenshot 2025-09-22 at 1 24 57 PM" src="https://github.com/user-attachments/assets/bc45c283-c09e-4b21-ad72-9de5682b64ca" />
+
+*Street-level concentration of crashes, sized by count and positioned geospatially to highlight corridors needing targeted interventions.*
 ---
 
 ## 🚀 Impact & Outcomes  
