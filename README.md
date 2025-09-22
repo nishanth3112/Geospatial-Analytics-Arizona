@@ -43,5 +43,3 @@ This project analyzes **51,000+ high-severity traffic crash records (2012–2024
 - Demonstrated how **geospatial analytics + ML clustering** can enhance urban safety interventions.  
 
 ---
-
-## 📂 Project Structure  
