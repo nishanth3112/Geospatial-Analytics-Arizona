@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tempe Crash Data Analysis – Interactive Dashboard</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0 20px;
+      background-color: #f7f9fa;
+    }
+    header {
+      background-color: #00274d;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    section {
+      margin: 40px 0;
+    }
+    h2 {
+      color: #00274d;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 10px;
+    }
+    iframe {
+      width: 100%;
+      height: 600px;
+      border: none;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Tempe Traffic Crash Analysis</h1>
+  <p>Geospatial & Interactive Visualizations (Data through 2023)</p>
+</header>
+
+<section>
+  <h2>Crash Map by Injury Severity</h2>
+  <iframe src="crash_map_injury_severity.html"></iframe>
+</section>
+
+<section>
+  <h2>Crash Map by Collision Manner</h2>
+  <iframe src="crash_map_collision_manner.html"></iframe>
+</section>
+
+<section>
+  <h2>Crash Timeline – Monthly Animation</h2>
+  <iframe src="crash_timeline_by_month.html"></iframe>
+</section>
+
+<section>
+  <h2>Animated Heatmap – By Month</h2>
+  <iframe src="animated_heatmap_by_month.html"></iframe>
+</section>
+
+<section>
+  <h2>Animated Heatmap – With Dropdown (Severity)</h2>
+  <iframe src="animated_heatmap_with_dropdown.html"></iframe>
+</section>
+
+<section>
+  <h2>Crash Density – General Heatmap</h2>
+  <iframe src="crash_density_heatmap.html"></iframe>
+</section>
+
+<section>
+  <h2>Crash Density – Peak Hours (3–8 PM)</h2>
+  <iframe src="crash_density_peak_hours.html"></iframe>
+</section>
+
+<section>
+  <h2>DBSCAN – Auto-Detected Hotspots</h2>
+  <iframe src="dbscan_hotspots.html"></iframe>
+</section>
+
+<section>
+  <h2>Hexbin Crash Density Map (3D-style)</h2>
+  <iframe src="hexbin_crash_density.html"></iframe>
+</section>
+
+<section>
+  <h2>High Severity Crashes – Corridor View</h2>
+  <iframe src="high_severity_by_corridor.html"></iframe>
+</section>
+
+<section>
+  <h2>Top 10 Corridors with Most Severe Crashes</h2>
+  <iframe src="top_10_corridors.html"></iframe>
+</section>
+
+<section>
+  <h2>Treemap – Collision Type vs Severity</h2>
+  <iframe src="treemap_collision_severity.html"></iframe>
+</section>
+
+<section>
+  <h2>Crash Severity Distribution by Weather</h2>
+  <iframe src="crash_by_weather.html"></iframe>
+</section>
+
+<section>
+  <h2>Bubble Map – Crash Count by Street</h2>
+  <iframe src="bubble_map_streets.html"></iframe>
+</section>
+
+</body>
+</html>
