@@ -36,6 +36,23 @@ This project analyzes **51,000+ high-severity traffic crash records (2012–2024
 
 ---
 
+## 📊 Key Visualizations  
+
+### 1. Crash Trends Over Time (Animated Heatmap)  
+![Crash Trends Heatmap]  <img width="1697" height="892" alt="Screenshot 2025-09-22 at 1 17 42 PM" src="https://github.com/user-attachments/assets/2f0bc759-b777-4a40-a238-efc48724fcb1" />
+
+*Visualizes monthly crash patterns across Tempe, highlighting seasonal and yearly fluctuations.*  
+
+### 2. High-Risk Corridors (DBSCAN Hotspot Clusters)  
+![Crash Hotspots](images/dbscan_hotspots.png)  
+*DBSCAN clustering uncovers dense crash clusters along major arterial roads, guiding infrastructure improvements.*  
+
+### 3. Peak Hour Crash Density  
+![Crash Density by Time](images/crash_density_peak_hours.png)  
+*Identifies evening peak (3–8 PM) as the riskiest period, helping allocate enforcement and safety measures.*  
+
+---
+
 ## 🚀 Impact & Outcomes  
 - Delivered an **interactive crash analysis dashboard** for **policy makers and city planners**.  
 - Supported **Vision Zero** by providing **data-driven strategies** to reduce fatalities and serious injuries.  
