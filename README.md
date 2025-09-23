@@ -62,6 +62,7 @@ This project analyzes **51,000+ high-severity traffic crash records (2012–2024
 <img width="1695" height="847" alt="Screenshot 2025-09-22 at 1 24 57 PM" src="https://github.com/user-attachments/assets/bc45c283-c09e-4b21-ad72-9de5682b64ca" />
 
 *Street-level concentration of crashes, sized by count and positioned geospatially to highlight corridors needing targeted interventions.*
+
 ---
 
 ## 🚀 Impact & Outcomes  
